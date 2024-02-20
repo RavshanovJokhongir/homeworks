@@ -42,11 +42,22 @@
 // }
 
 /* if else, switch case, ternary 3rd homework */
-let num = 6; //10; //30
-if(num === 6) {
-    console.log('3ga bolinadi');
-}else if(num === 10) {
-    console.log('5ga bolinadi');
-}else {
-    console.log('3ga va 5ga bolinadi');
+// let num = 6; //10; //30
+// if(num === 6) {
+//     console.log('3ga bolinadi');
+// }else if(num === 10) {
+//     console.log('5ga bolinadi');
+// }else {
+//     console.log('3ga va 5ga bolinadi');
+// }
+
+
+/* if else, switch case, ternary 4th homework */
+let browser = 'Edge';
+if (browser === 'Edge') {
+    console.log("You've got the Edge!");
+} else if (browser === 'Chrome' || browser === 'Firefox' || browser === 'Safari' || browser === 'Opera') {
+    console.log('Okay we support these browsers too');
+} else {
+    console.log('We hope that this page looks ok!');
 }
