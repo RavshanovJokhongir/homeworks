@@ -3,6 +3,8 @@
 // num % 2 === 0 && console.log('Juft son');
 // num % 2 !== 0 && console.log('Toq son');
 
+/////////////////////////////////////////////////////////////////////////////////
+
 /* Type conversion 2nd homework*/
 // let  result = 44;
 // result >= 86 && result <= 98 && console.log('A'); 
@@ -10,12 +12,16 @@
 // result >= 46 && result <= 60 && console.log('C'); 
 // result <=45  && console.log('Failed'); 
 
+/////////////////////////////////////////////////////////////////////////////////
+
 /* Type conversion 3rd homework*/
 // let fruit = 'pomidor';
 // fruit === 'olma' && console.log(10000);
 // fruit === 'nok' && console.log(12000);
 // fruit === 'tarvuz' && console.log(20000);
 // fruit === 'pomidor' && console.log("unday meva yoq");
+
+/////////////////////////////////////////////////////////////////////////////////
 
 /* if else, switch case, ternary 1st homework*/
 // let result = 100;
@@ -29,6 +35,8 @@
 //     console.log('Failed');
 // }
 
+/////////////////////////////////////////////////////////////////////////////////
+
 /* if else, switch case, ternary 2nd homework */
 // let fruit = 'olma';
 // if(fruit === 'olma') {
@@ -41,6 +49,8 @@
 //     console.log('Bunday meva yoq');
 // }
 
+/////////////////////////////////////////////////////////////////////////////////
+
 /* if else, switch case, ternary 3rd homework */
 // let num = 6; //10; //30
 // if(num === 6) {
@@ -51,13 +61,24 @@
 //     console.log('3ga va 5ga bolinadi');
 // }
 
+/////////////////////////////////////////////////////////////////////////////////
 
 /* if else, switch case, ternary 4th homework */
-let browser = 'Edge';
-if (browser === 'Edge') {
-    console.log("You've got the Edge!");
-} else if (browser === 'Chrome' || browser === 'Firefox' || browser === 'Safari' || browser === 'Opera') {
-    console.log('Okay we support these browsers too');
-} else {
-    console.log('We hope that this page looks ok!');
-}
+// let browser = 'Edge';
+// if (browser === 'Edge') {
+//     console.log("You've got the Edge!");
+// } else if (browser === 'Chrome' || browser === 'Firefox' || browser === 'Safari' || browser === 'Opera') {
+//     console.log('Okay we support these browsers too');
+// } else {
+//     console.log('We hope that this page looks ok!');
+// }
+
+/////////////////////////////////////////////////////////////////////////////////
+/* if else, switch case, ternary 5th homework */
+let login = '';
+let message = (login == 'Employee') ? 'Hello' : 
+              (login === 'director') ? 'Greetings' : 
+              (login === '') ? 'No login' : 
+              '';
+
+console.log(message);
