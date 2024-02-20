@@ -18,14 +18,26 @@
 // fruit === 'pomidor' && console.log("unday meva yoq");
 
 /* if else, switch case, ternary 1st homework*/
-let result = 100;
-if (result >= 86) {
-    console.log('A');
-} else if (result >= 61 && result <= 85) {
-    console.log('B');
-} else if (result >= 46 && result <= 60) {
-    console.log('C');
-} else {
-    console.log('Failed');
+// let result = 100;
+// if (result >= 86) {
+//     console.log('A');
+// } else if (result >= 61 && result <= 85) {
+//     console.log('B');
+// } else if (result >= 46 && result <= 60) {
+//     console.log('C');
+// } else {
+//     console.log('Failed');
+// }
+
+/* if else, switch case, ternary 2nd homework */
+let fruit = 'olma';
+if(fruit === 'olma') {
+    console.log(10000);
+}else if(fruit === 'nok') {
+    console.log(12000);
+}else if(fruit === 'tarvuz') {
+    console.log(20000);
+}else {
+    console.log('Bunday meva yoq');
 }
 
