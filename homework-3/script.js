@@ -1,9 +1,9 @@
 /* for loop 1st homework */
-// var sum = 5;
-// for(i = 1; i <= 5; i++) {
-//   if( i % 2 === 0) console.log(`juft son ${i}`);
-//   else console.log(`toq son ${i}`);
-// }
+var sum = 5;
+for(i = 1; i <= 5; i++) {
+  if( i % 2 === 0) console.log(`juft son ${i}`);
+  else console.log(`toq son ${i}`);
+}
 
 //////////////////////////////////////////////////////////////////////////////
 /* for loop 2nd homework */
