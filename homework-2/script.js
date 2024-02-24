@@ -1,14 +1,14 @@
 /* if else, switch case, ternary 1st homework*/
-// let result = 100;
-// if (result >= 86) {
-//     console.log('A');
-// } else if (result >= 61 && result <= 85) {
-//     console.log('B');
-// } else if (result >= 46 && result <= 60) {
-//     console.log('C');
-// } else {
-//     console.log('Failed');
-// }
+let result = 100;
+if (result >= 86) {
+    console.log('A');
+} else if (result >= 61 && result <= 85) {
+    console.log('B');
+} else if (result >= 46 && result <= 60) {
+    console.log('C');
+} else {
+    console.log('Failed');
+}
 
 /////////////////////////////////////////////////////////////////////////////////
 
@@ -50,10 +50,10 @@
 
 /////////////////////////////////////////////////////////////////////////////////
 /* if else, switch case, ternary 5th homework */
-let login = '';
-let message = (login == 'Employee') ? 'Hello' : 
-              (login === 'director') ? 'Greetings' : 
-              (login === '') ? 'No login' : 
-              '';
+// let login = '';
+// let message = (login == 'Employee') ? 'Hello' : 
+//               (login === 'director') ? 'Greetings' : 
+//               (login === '') ? 'No login' : 
+//               '';
 
-console.log(message);
+// console.log(message);
