@@ -19,4 +19,4 @@
 // fruit === 'olma' && console.log(10000);
 // fruit === 'nok' && console.log(12000);
 // fruit === 'tarvuz' && console.log(20000);
-// fruit === 'pomidor' && console.log("unday meva yoq");
+// fruit === 'pomidor' && console.log("unday meva yoq");  
