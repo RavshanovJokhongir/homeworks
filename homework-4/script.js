@@ -14,11 +14,31 @@
 ////////////////////////////////////////////////////////////////////////
 
 /* string 3rd homework */
-let str = '#fozil#web#brain#';
-let replacedStr = str.replace(/#fozil#web#brain#/g, '(fozil)web(brain) ');
-console.log(replacedStr);
+let yil = 2024;
+let leapYearFound = false;
+while (true) {
+    if ((yil % 4 === 0 && yil % 100 !== 0) || yil % 400 === 0) {
+        console.log(yil);
+        leapYearFound = true;
+        break;
+    }
+    yil++;
+}
+if (leapYearFound) {
+    console.log("Kabitsa yil");
+} else {
+    console.log("Kabitsa yili emas");
+}
 
 
+
+
+/////////////////////////////////////////////////////////////////////////
+
+/* string 4th homework */
+// let str = '#fozil#web#brain#';
+// let replacedStr = str.replace(/#fozil#web#brain#/g, '(fozil)web(brain) ');
+// console.log(replacedStr);
 
 ///////////////////////////////////////////////////////////////////////
 /* string 5th homework */
