@@ -13,9 +13,19 @@
 // console.log(replacingStr2);
 ////////////////////////////////////////////////////////////////////////
 
+/* string 3rd homework */
+let str = '#fozil#web#brain#';
+let replacedStr = str.replace(/#fozil#web#brain#/g, '(fozil)web(brain) ');
+console.log(replacedStr);
+
+
+
+///////////////////////////////////////////////////////////////////////
 /* string 5th homework */
-let str = 'webBrain';
-let repeating = (str + ' ').repeat(10);
-let replacing = repeating.replace(/webBrain/g, 'ITBrain');
-console.log(repeating);
-console.log(replacing);
+// let str = 'webBrain';
+// let repeating = (str + ' ').repeat(10);
+// let replacing = repeating.replace(/webBrain/g, 'ITBrain');
+// console.log(repeating);
+// console.log(replacing);
+//////////////////////////////////////////////////////////////////////
+
