@@ -29,8 +29,17 @@
 ///////////////////////////////////////////////////
 
 //////////// Homework 4 ///////////////////////
-function myCeil(number) {
-    return Math.ceil(number);
+// function myCeil(number) {
+//     return Math.ceil(number);
+// }
+// console.log(myCeil(20.1)); 
+// console.log(myCeil(50));  
+
+///////////////////////////////////////////////
+////////homework 5 ///////////////
+function myRound(number) {
+    return Math.round(number);
 }
-console.log(myCeil(20.1)); 
-console.log(myCeil(50));  
+console.log(myRound(55.5)); 
+console.log(myRound(20.2)); 
+console.log(myRound(30));  
