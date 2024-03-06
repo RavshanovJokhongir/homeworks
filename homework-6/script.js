@@ -9,16 +9,8 @@
 
 
 /////// Homework 2 ///////////
-// let schedule = {};
-// function isEmpty(obj) {
-//   for (let key in obj) {
-//     return false;
-//   }
-//   return true;
-// }
-// alert(isEmpty(schedule)); 
-// schedule["8:30"] = "get up";
-// alert(isEmpty(schedule));
+
+
 
 //////// Homework 3 /////////
 // let salaries = { John: 100, Ann: 160, Pete: 130 };
@@ -29,19 +21,19 @@
 // console.log(sum);
 
 /////// Homework 4 ////////////
-function multiplyNumeric(obj) {
-    for (let key in obj) {
-      if (typeof obj[key] === 'number') {
-        obj[key] *= 2;
-      }
-    }
-  }
-  let obj = {
-    width: 20,
-    height: 30,
-    length: 10
-  };
-  console.log("Before multiplying:", obj);
-  multiplyNumeric(obj);
-  console.log("After multiplying:", obj);
+// function multiplyNumeric(obj) {
+//     for (let key in obj) {
+//       if (typeof obj[key] === 'number') {
+//         obj[key] *= 2;
+//       }
+//     }
+//   }
+//   let obj = {
+//     width: 20,
+//     height: 30,
+//     length: 10
+//   };
+//   console.log("Before multiplying:", obj);
+//   multiplyNumeric(obj);
+//   console.log("After multiplying:", obj);
   
