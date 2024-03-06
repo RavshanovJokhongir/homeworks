@@ -21,7 +21,16 @@
 ///////////////////////////////////////////////////
 
 //////// Homework 3 //////////////////////
-function myFloor(number) {
-    return Math.floor(number);
+// function myFloor(number) {
+//     return Math.floor(number);
+// }
+// console.log(myFloor(442.10));
+
+///////////////////////////////////////////////////
+
+//////////// Homework 4 ///////////////////////
+function myCeil(number) {
+    return Math.ceil(number);
 }
-console.log(myFloor(442.10));
+console.log(myCeil(20.1)); 
+console.log(myCeil(50));  
