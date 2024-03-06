@@ -14,21 +14,21 @@
 ////////////////////////////////////////////////////////////////////////
 
 /* string 3rd homework */
-let yil = 2024;
-let leapYearFound = false;
-while (true) {
-    if ((yil % 4 === 0 && yil % 100 !== 0) || yil % 400 === 0) {
-        console.log(yil);
-        leapYearFound = true;
-        break;
-    }
-    yil++;
-}
-if (leapYearFound) {
-    console.log("Kabitsa yil");
-} else {
-    console.log("Kabitsa yili emas");
-}
+// let yil = 2024;
+// let leapYearFound = false;
+// while (true) {
+//     if ((yil % 4 === 0 && yil % 100 !== 0) || yil % 400 === 0) {
+//         console.log(yil);
+//         leapYearFound = true;
+//         break;
+//     }
+//     yil++;
+// }
+// if (leapYearFound) {
+//     console.log("Kabitsa yil");
+// } else {
+//     console.log("Kabitsa yili emas");
+// }
 
 
 
