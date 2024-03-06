@@ -37,9 +37,9 @@
 
 ///////////////////////////////////////////////
 ////////homework 5 ///////////////
-function myRound(number) {
-    return Math.round(number);
-}
-console.log(myRound(55.5)); 
-console.log(myRound(20.2)); 
-console.log(myRound(30));  
+// function myRound(number) {
+//     return Math.round(number);
+// }
+// console.log(myRound(55.5)); 
+// console.log(myRound(20.2)); 
+// console.log(myRound(30));  
