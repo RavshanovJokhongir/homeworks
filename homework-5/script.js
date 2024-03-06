@@ -12,8 +12,16 @@
 ////////////////////////////////////////////////
 
 ////// Homework 2 ///////////////
-function myAbs(number) {
-    return number >= 0 ? number : -number;
+// function myAbs(number) {
+//     return number >= 0 ? number : -number;
+// }
+// console.log(myAbs(-10)); 
+// console.log(myAbs(10)); 
+
+///////////////////////////////////////////////////
+
+//////// Homework 3 //////////////////////
+function myFloor(number) {
+    return Math.floor(number);
 }
-console.log(myAbs(-10)); 
-console.log(myAbs(10)); 
+console.log(myFloor(442.10));
