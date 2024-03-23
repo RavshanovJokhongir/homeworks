@@ -45,19 +45,19 @@
 //     console.log(result);
 
 ///////// Homework 4 //////////////////////////////////
-person = {
-    id: 'Umar',
-    name: 'Ismoilov',
-    ielts: 5.5,
-    student: true,
-    parol:101
-}
+// person = {
+//     id: 'Umar',
+//     name: 'Ismoilov',
+//     ielts: 5.5,
+//     student: true,
+//     parol:101
+// }
 
-function Kirish(parol, name) {
-    if (parol === person,parol && name === person.name) {
-        console.log('saxifangizga xush kelibsiz!');
-    }else {
-        console.log('parol yoki name xato!');
-    }
-}
-Kirish(101, 'Umarxon')
+// function Kirish(parol, name) {
+//     if (parol === person,parol && name === person.name) {
+//         console.log('saxifangizga xush kelibsiz!');
+//     }else {
+//         console.log('parol yoki name xato!');
+//     }
+// }
+// Kirish(101, 'Umarxon')
